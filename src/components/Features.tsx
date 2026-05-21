@@ -103,7 +103,7 @@ function CardSpotlight({ children, className, index, isInView }: CardSpotlightPr
   return (
     <div
       ref={cardRef}
-      className={`group relative cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+      className={`group relative cursor-pointer h-full transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
         isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-24"
       } ${className}`}
       style={{ transitionDelay: `${index * 100}ms` }}
@@ -112,7 +112,7 @@ function CardSpotlight({ children, className, index, isInView }: CardSpotlightPr
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
     >
-      <div className="relative rounded-3xl p-[2px] overflow-hidden">
+      <div className="relative rounded-3xl p-[2px] overflow-hidden h-full">
         <div
           className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"
           style={{
@@ -121,7 +121,7 @@ function CardSpotlight({ children, className, index, isInView }: CardSpotlightPr
           }}
         ></div>
 
-        <div className="relative bg-white rounded-[1.4rem] p-8 overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-3">
+        <div className="relative bg-white rounded-[1.4rem] p-8 overflow-hidden h-full flex flex-col transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-3">
           <div
             className="absolute inset-0 pointer-events-none transition-opacity duration-500"
             style={{
@@ -179,7 +179,7 @@ function CardSpotlight({ children, className, index, isInView }: CardSpotlightPr
 
           <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#B0FC51]/0 group-hover:bg-[#B0FC51]/[0.03] rounded-full blur-2xl translate-y-1/2 -translate-x-1/4 transition-all duration-700"></div>
 
-          <div className="relative z-10">{children}</div>
+          <div className="relative z-10 flex flex-col h-full">{children}</div>
         </div>
       </div>
     </div>
@@ -289,7 +289,7 @@ export default function Features() {
 
               <div className="w-0 h-[2px] bg-[#B0FC51] group-hover:w-12 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] mb-4"></div>
 
-              <p className="text-gray-500 text-sm leading-relaxed group-hover:text-gray-600 transition-colors duration-500">
+              <p className="text-gray-500 text-sm leading-relaxed group-hover:text-gray-600 transition-colors duration-500 flex-1">
                 {feature.desc}
               </p>
             </CardSpotlight>

@@ -36,21 +36,21 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#1a1a1a]">
+    <section id="contact" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-[#1a1a1a]">
       <div ref={contactSection.ref} className="max-w-7xl mx-auto">
         <div className={`text-center transition-all duration-700 ${contactSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-          <span className="inline-block bg-[#B0FC51]/20 text-[#181818] px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block bg-[#B0FC51]/20 text-[#181818] px-3 md:px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-medium mb-3 md:mb-4">
             Contact Us
           </span>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Get in <span className="text-[#B0FC51]">Touch</span>
           </h2>
-          <p className="mt-6 text-white/60 text-lg max-w-2xl mx-auto">
+          <p className="mt-4 md:mt-6 text-white/60 text-base md:text-lg max-w-2xl mx-auto">
             Have questions or need assistance? We are here to help you every step of the way.
           </p>
         </div>
 
-        <div className={`mt-16 max-w-xl mx-auto transition-all duration-700 delay-200 ${contactSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+        <div className={`mt-10 md:mt-16 max-w-xl mx-auto transition-all duration-700 delay-200 ${contactSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <input
@@ -88,7 +88,7 @@ export default function Contact() {
           </form>
         </div>
 
-        <div className={`mt-16 grid sm:grid-cols-3 gap-8 text-center transition-all duration-700 delay-400 ${contactSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+        <div className={`mt-12 md:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 text-center transition-all duration-700 delay-400 ${contactSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
           {[
             { icon: "📍", label: "123 Travel Street, World" },
             { icon: "📧", label: "contact@volanow.com" },

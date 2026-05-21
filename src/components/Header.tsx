@@ -6,9 +6,9 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-3 left-3 right-3 z-50">
-      <div className="bg-white/80 backdrop-blur-xl border border-black/10 rounded-2xl px-6 py-4 flex items-center justify-between shadow-2xl">
-        <div className="text-[#B0FC51] font-bold text-xl tracking-tight">
+    <header className="fixed top-2 md:top-3 left-2 md:left-3 right-2 md:right-3 z-50">
+      <div className="bg-white/80 backdrop-blur-xl border border-black/10 rounded-xl md:rounded-2xl px-4 md:px-6 py-3 md:py-4 flex items-center justify-between shadow-2xl">
+        <div className="text-[#B0FC51] font-bold text-lg md:text-xl tracking-tight">
           VolaNow
         </div>
 

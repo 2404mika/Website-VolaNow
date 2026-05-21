@@ -62,7 +62,7 @@ export default function Hero() {
                   alt="VolaNow App"
                   width={950}
                   height={900}
-                  className="relative z-10 w-[400rem] sm:w-[320px] h-auto drop-shadow-2xl"
+                  className="relative z-10 w-[400px] sm:w-[550px] lg:w-[700px] h-auto drop-shadow-2xl"
                   priority
                 />
               </div>

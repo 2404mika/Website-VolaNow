@@ -94,7 +94,7 @@ export default function About() {
       role: "FullStack & Mobile",
       location: "Antsirabe, MG",
       phone: "+261 34 83 617 22",
-      email: "andry@volanow.mg",
+      email: "thierryrfh@gmail.com",
       image: "/team/fy.jpeg",
     },
     {

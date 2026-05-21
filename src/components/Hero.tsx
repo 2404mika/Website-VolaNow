@@ -42,7 +42,7 @@ export default function Hero() {
                 </button>
               </div>
 
-              <div className={`mt-8 md:mt-16 flex gap-8 md:gap-12 transition-all duration-1000 delay-500 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+              {/* <div className={`mt-8 md:mt-16 flex gap-8 md:gap-12 transition-all duration-1000 delay-500 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                 <div>
                   <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">4.8</div>
                   <div className="text-white/50 text-xs md:text-sm mt-1">Rating on AppStore</div>
@@ -51,7 +51,7 @@ export default function Hero() {
                   <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">700K+</div>
                   <div className="text-white/50 text-xs md:text-sm mt-1">Active users</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="order-1 lg:order-2 flex items-end justify-center">

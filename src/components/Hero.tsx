@@ -25,7 +25,7 @@ export default function Hero() {
               <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight transition-all duration-1000 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                 Facilitez votre
                 <br />
-                quotidien avec <span className="text-[#B0FC51]"><i>VN</i></span>
+                quotidien avec <span className="text-[#B0FC51]">VN</span>
               </h1>
 
               <p className={`mt-4 md:mt-6 text-white/60 text-base md:text-lg max-w-sm md:max-w-md transition-all duration-1000 delay-200 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>

@@ -19,7 +19,7 @@ export default function Header() {
     { href: "#home", label: "Accueil" },
     { href: "#features", label: "Avantages" },
     { href: "#about", label: "Comment ça marche" },
-    { href: "#contact", label: "Contact" },
+    { href: "#about", label: "Notre equipe" },
   ];
 
   const linkClass = (isMobile = false) =>

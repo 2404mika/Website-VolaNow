@@ -12,8 +12,8 @@ export default function Home() {
       <main className="bg-[#F2F2F4]">
         <Hero />
         <Features />
-        <About />
         <Contact />
+        <About />
       </main>
       <Footer />
     </>

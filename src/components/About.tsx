@@ -77,7 +77,7 @@ function TeamCard({ member, index, isInView }: { member: TeamMember; index: numb
         <p className="text-gray-400 text-sm mb-5">{member.location}</p>
 
         <p className="text-[#181818] text-sm font-medium mb-1">{member.phone}</p>
-        <a href={`mailto:${member.email}`} className="text-[#B0FC51] text-sm hover:underline transition-colors duration-300">
+        <a href={`mailto:${member.email}`} className="text-[#35C21F] text-sm hover:underline transition-colors duration-300">
           {member.email}
         </a>
       </div>

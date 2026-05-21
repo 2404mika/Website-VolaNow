@@ -95,7 +95,7 @@ export default function About() {
       location: "Antsirabe, MG",
       phone: "+261 34 83 617 22",
       email: "andry@volanow.mg",
-      image: "/team/andry.jpg",
+      image: "/team/fy.jpeg",
     },
     {
       name: "Manoa Fanekena",
@@ -103,7 +103,7 @@ export default function About() {
       location: "Antsirabe, MG",
       phone: "+261 38 25 839 35",
       email: "ravomanoa3@gmail.com",
-      image: "/src/manoa.jpeg",
+      image: "/team/manoa.jpeg",
     },
     {
       name: "Mika Heritiana",
@@ -111,7 +111,7 @@ export default function About() {
       location: "Antsirabe, MG",
       phone: "+261 34 59 290 75",
       email: "rakotomalalaheritiana22@gmail.com",
-      image: "/src/images/mika.jpeg",
+      image: "/team/mika.jpeg",
     },
   ];
 

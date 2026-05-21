@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,15 +15,15 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#features", label: "Features" },
-    { href: "#about", label: "About" },
+  const navLinks =[
+    { href: "#home", label: "Accueil" },
+    { href: "#features", label: "Avantages" },
+    { href: "#about", label: "Comment ça marche" },
     { href: "#contact", label: "Contact" },
   ];
 
   const linkClass = (isMobile = false) =>
-    `transition-colors duration-300 ${isMobile ? "text-base py-2" : "text-sm"} ${
+    `transition-colors duration-300 ${isMobile ? "text-base py-2" : "text-base"} ${
       scrolled ? "text-white/70 hover:text-[#B0FC51]" : "text-[#181818]/70 hover:text-[#B0FC51]"
     }`;
 
@@ -33,10 +34,16 @@ export default function Header() {
           scrolled
             ? "bg-[#181818]/90 border-white/10"
             : "bg-white/80 border-black/10"
-        } rounded-xl sm:rounded-2xl px-3 sm:px-5 md:px-6 py-2.5 sm:py-3 md:py-4 flex items-center justify-between`}
+        } rounded-xl sm:rounded-2xl px-2 sm:px-5 md:px-6 py-2.5 sm:py-3 md:py-4 flex items-center justify-between`}
       >
-        <a href="#home" className="text-[#B0FC51] font-bold text-lg sm:text-xl tracking-tight shrink-0">
-          VolaNow
+        <a href="#home" className="shrink-0 flex items-center">
+          <Image 
+            src={scrolled ? "/Logo_Dark.png" : "/Logo_Light.png"} 
+            alt="VolaNow Logo" 
+            width={160} 
+            height={60} 
+            className="h-10 w-auto object-contain" 
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
@@ -47,7 +54,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <button className="hidden lg:block bg-[#B0FC51] text-[#181818] font-semibold text-sm px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0">
+        <button className="hidden lg:block bg-[#B0FC51] text-[#181818] font-semibold text-base px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0">
           Get Started
         </button>
 

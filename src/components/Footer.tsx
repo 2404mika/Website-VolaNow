@@ -13,7 +13,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-gray-500 text-sm max-w-2xl mx-auto leading-relaxed">
-            Transformez votre façon de voyager. Découvrez Madagascar avec un accompagnement intelligent.
+            La solution pour votre quotidien
           </p>
         </div>
 

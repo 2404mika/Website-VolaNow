@@ -54,9 +54,15 @@ export default function Header() {
           ))}
         </nav>
 
-        <button className="hidden lg:block bg-[#B0FC51] text-[#181818] font-semibold text-base px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0">
+        {/* Bouton Desktop remplacé par une balise a */}
+        <a 
+          href="https://drive.google.com/uc?export=download&id=1lPt8rVLoZDpzCyB90zHWa1t8ukwQ1EvO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden lg:inline-block bg-[#B0FC51] text-[#181818] font-semibold text-base px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0 cursor-pointer"
+        >
           Obtenir l'APK
-        </button>
+        </a>
 
         <button
           className={`lg:hidden shrink-0 p-1 ${scrolled ? "text-white" : "text-[#181818]"}`}
@@ -92,9 +98,17 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
-            <button className="bg-[#B0FC51] text-[#181818] font-semibold px-5 py-2.5 rounded-full hover:bg-[#9ae045] transition-colors w-full mt-2">
+            
+            {/* Bouton Mobile remplacé par une balise a */}
+            <a 
+              href="https://drive.google.com/uc?export=download&id=1lPt8rVLoZDpzCyB90zHWa1t8ukwQ1EvO"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
+              className="bg-[#B0FC51] text-[#181818] font-semibold px-5 py-2.5 rounded-full hover:bg-[#9ae045] transition-colors w-full mt-2 block text-center cursor-pointer"
+            >
               Obtenir l'APK
-            </button>
+            </a>
           </nav>
         </div>
       )}

@@ -265,7 +265,7 @@ export default function Features() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
               ),
               title: "Pas Besoin d'Internet",
-              desc: "Effectuez vos transactions même sans connexion internet, via USSD ou SMS."
+              desc: "Effectuez vos transactions même sans connexion internet"
             }
           ].map((feature, index) => (
             <CardSpotlight key={index} index={index} isInView={featuresSection.isInView}>

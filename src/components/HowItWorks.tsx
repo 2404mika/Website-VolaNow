@@ -66,10 +66,9 @@ export default function HowItWorks() {
       title: "Achat de crédit",
       desc: "Rechargez votre téléphone ou achetez des forfaits rapidement et sans frais.",
       instructions: [
-        { step: "1", title: "Sélectionnez Crédit", text: "Appuyez sur 'Achat de crédit' dans le menu principal." },
-        { step: "2", title: "Choisissez l'opérateur", text: "Sélectionnez votre opérateur téléphonique (Telma, Orange, Airtel...)." },
-        { step: "3", title: "Entrez le montant", text: "Saisissez le montant de recharge souhaité ou choisissez un forfait." },
-        { step: "4", title: "Validez l'achat", text: "Confirmez avec votre code PIN. Le crédit est ajouté instantanément." },
+        { step: "1", title: "Sélectionnez Crédit", text: "Grattez votre pour rendre visible le code du credit" },
+        { step: "2", title: "Placez et scannez", text: "Placez dans le cadre la carte de credit pour demarrer le scan" },
+        { step: "3", title: "Demarrez le scan", text: "Une fois bien placée, commencer a scanner le credit" },
       ]
     },
   ];

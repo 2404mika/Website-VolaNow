@@ -16,10 +16,10 @@ export default function Header() {
   }, []);
 
   const navLinks =[
-    { href: "#home", label: "Accueil" },
-    { href: "#features", label: "Avantages" },
-    { href: "#how-it-works", label: "Comment ça marche" },
-    { href: "#about", label: "Notre equipe" },
+    { href: "/#home", label: "Accueil" },
+    { href: "/#features", label: "Avantages" },
+    { href: "/#how-it-works", label: "Comment ça marche" },
+    { href: "/#about", label: "Notre equipe" },
   ];
 
   const linkClass = (isMobile = false) =>
@@ -36,7 +36,7 @@ export default function Header() {
             : "bg-white/80 border-black/10"
         } rounded-xl sm:rounded-2xl px-2 sm:px-5 md:px-6 py-2.5 sm:py-3 md:py-4 flex items-center justify-between`}
       >
-        <a href="#home" className="shrink-0 flex items-center">
+        <a href="/" className="shrink-0 flex items-center">
           <Image 
             src={scrolled ? "/Logo_Dark.png" : "/Logo_Light.png"} 
             alt="VolaNow Logo" 

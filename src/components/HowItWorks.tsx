@@ -137,9 +137,12 @@ export default function HowItWorks() {
               </button>
 
               {/* Texte mobile - Voir instructions */}
-              <p className="md:hidden text-[#7ab83e] text-xs font-medium mt-3 mb-1">
+              <button 
+                onClick={() => setSelectedStep(index)}
+                className="md:hidden text-[#7ab83e] text-xs font-medium mt-3 mb-1 hover:underline"
+              >
                 Voir instructions →
-              </p>
+              </button>
 
               {/* Texte */}
               <div className="mt-8 text-center max-w-[300px]">

@@ -37,9 +37,9 @@
                     Obtenir l'APK
                     <span>→</span>
                   </button>
-                  <button className="text-white font-medium hover:underline text-sm md:text-base">
+                  {/* <button className="text-white font-medium hover:underline text-sm md:text-base">
                     More
-                  </button>
+                  </button> */}
                 </div>
 
                 {/* <div className={`mt-8 md:mt-16 flex gap-8 md:gap-12 transition-all duration-1000 delay-500 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>

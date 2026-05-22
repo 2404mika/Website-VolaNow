@@ -55,7 +55,7 @@ export default function Header() {
         </nav>
 
         <button className="hidden lg:block bg-[#B0FC51] text-[#181818] font-semibold text-base px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0">
-          Get Started
+          Obtenir l'APK
         </button>
 
         <button
@@ -93,7 +93,7 @@ export default function Header() {
               </a>
             ))}
             <button className="bg-[#B0FC51] text-[#181818] font-semibold px-5 py-2.5 rounded-full hover:bg-[#9ae045] transition-colors w-full mt-2">
-              Get Started
+              Obtenir l'APK
             </button>
           </nav>
         </div>

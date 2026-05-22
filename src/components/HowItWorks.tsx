@@ -34,28 +34,29 @@ export default function HowItWorks() {
   const steps = [
     {
       num: "01",
-      image: "/transfert.jpeg",
-      modalImage: "/t_transfert.jpeg",
-      title: "Transfert instantané",
-      desc: "Envoyez de l'argent à vos proches en quelques secondes, où qu'ils soient.",
-      instructions: [
-        { step: "1", title: "Ouvrez l'application", text: "Lancez VolaNow et connectez-vous à votre compte sécurisé." },
-        { step: "2", title: "Choisissez Transfert", text: "Sélectionnez l'option 'Transfert' depuis le menu principal." },
-        { step: "3", title: "Entrez le destinataire", text: "Saisissez le numéro ou sélectionnez un contact de votre liste." },
-        { step: "4", title: "Confirmez et envoyez", text: "Vérifiez le montant, entrez votre code PIN et validez. L'argent arrive instantanément !" },
-      ]
-    },
-    {
-      num: "02",
       image: "/retrait.jpeg",
       modalImage: "/t_retrait.jpeg",
       title: "Retrait sécurisé",
       desc: "Retirez vos fonds facilement auprès de nos nombreux agents agréés.",
       instructions: [
-        { step: "1", title: "Accédez aux retraits", text: "Depuis l'accueil, appuyez sur l'option 'Retrait'." },
-        { step: "2", title: "Trouvez un agent", text: "Utilisez la carte intégrée pour localiser l'agent agréé le plus proche." },
-        { step: "3", title: "Initiez le retrait", text: "Entrez le montant souhaité et générez votre code de retrait unique." },
-        { step: "4", title: "Récupérez vos fonds", text: "Présentez le code à l'agent et recevez votre argent immédiatement." },
+        { step: "1", title: "Choisir l'operateur", text: "Selectionnez l'operateur dont vous voulez faire un retrait d'argent" },
+        { step: "2", title: "Information de retrait", text: "Inserer ou scanner le numero de l'agent du cash point." },
+        { step: "3", title: "Montant a retirer", text: "Saisissez le montant a retirer " },
+        { step: "4", title: "Confirmation", text: "Cliquez sur Confirmer pour valider le retrait d'argent" },
+      ]
+    },
+    {
+      num: "02",
+      image: "/transfert.jpeg",
+      modalImage: "/t_transfert.jpeg",
+      title: "Transfert instantané",
+      desc: "Envoyez de l'argent à vos proches en quelques secondes, vers tout operateur",
+      instructions: [
+        { step: "1", title: "Choisissez l'operateur d'envoi", text: "Selectionnez votre operateur d'envoi" },
+        { step: "2", title: "Choisissez l'operateur de destination", text: "Sélectionnez l'operateur de destination" },
+        { step: "3", title: "Entrez le destinataire", text: "Saisissez le numéro du destinataire." },
+        { step: "3", title: "Montant a transferer", text: "Saisissez dans le champ le montant a envoyer" },
+        { step: "4", title: "Confirmez et envoyez", text: "Vérifiez le numero et le montant, confirmer pour valider la transaction" },
       ]
     },
     {

@@ -102,7 +102,7 @@ function TeamCard({ member, index, isInView }: TeamCardProps) {
           </div>
 
           <p className="text-[#181818] text-sm font-medium mb-1 transition-colors duration-500 group-hover:text-[#B0FC51]">{member.phone}</p>
-          <a href={`mailto:${member.email}`} className="text-[#B0FC51] text-sm hover:underline transition-all duration-300 hover:text-[#9ae045] hover:translate-x-1">
+          <a href={`mailto:${member.email}`} className="text-[#86D12E] text-sm hover:underline transition-all duration-300 hover:text-[#7ab83e] hover:translate-x-1">
             {member.email}
           </a>
         </div>

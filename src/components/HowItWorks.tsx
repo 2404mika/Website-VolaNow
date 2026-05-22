@@ -130,11 +130,16 @@ export default function HowItWorks() {
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
-                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[#181818]/80 text-white px-4 py-2 rounded-full text-sm font-medium">
+                  <span className="hidden md:block opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[#181818]/80 text-white px-4 py-2 rounded-full text-sm font-medium">
                     Voir les détails
                   </span>
                 </div>
               </button>
+
+              {/* Texte mobile - Voir instructions */}
+              <p className="md:hidden text-[#7ab83e] text-xs font-medium mt-3 mb-1">
+                Voir instructions →
+              </p>
 
               {/* Texte */}
               <div className="mt-8 text-center max-w-[300px]">

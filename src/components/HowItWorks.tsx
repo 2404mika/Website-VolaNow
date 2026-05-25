@@ -178,20 +178,21 @@ export default function HowItWorks() {
           {/* Backdrop flouté */}
           <div className={`absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-300 ${isModalOpen ? "opacity-100" : "opacity-0"}`} />
           
+          {/* Bouton fermer */}
+          <button 
+            onClick={closeModal}
+            className="fixed top-4 right-4 z-[60] w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors duration-200"
+          >
+            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          
           {/* Contenu du modal */}
           <div 
             className={`relative bg-[#181818] rounded-3xl max-w-7xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-white/10 transition-all duration-300 ease-out ${isModalOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 translate-y-8"}`}
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Bouton fermer */}
-            <button 
-              onClick={closeModal}
-              className="fixed top-4 right-4 z-[60] w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors duration-200"
-            >
-              <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
 
             <div className="flex flex-col md:flex-row">
               {/* Image à gauche */}

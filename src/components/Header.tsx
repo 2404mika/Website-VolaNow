@@ -24,7 +24,7 @@ export default function Header() {
 
   const linkClass = (isMobile = false) =>
     `transition-colors duration-300 ${isMobile ? "text-base py-2" : "text-base"} ${
-      scrolled ? "text-white/70 hover:text-[#B0FC51]" : "text-[#181818]/70 hover:text-[#B0FC51]"
+      scrolled ? "text-white/70 hover:text-[#7ab83e]" : "text-[#181818]/70 hover:text-[#7ab83e]"
     }`;
 
   return (

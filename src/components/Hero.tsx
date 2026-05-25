@@ -35,7 +35,7 @@ export default function Hero() {
               <div className={`mt-6 md:mt-10 flex items-center gap-4 md:gap-6 transition-all duration-1000 delay-300 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                 {/* Le lien Google Drive a été mis à jour ici */}
                 <a 
-                  href="https://drive.google.com/uc?export=download&id=1lPt8rVLoZDpzCyB90zHWa1t8ukwQ1EvO"
+                  href="https://github.com/2404mika/Website-VolaNow/releases/download/VolaNow/VolaNow.apk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-[#B0FC51] text-[#181818] px-6 md:px-8 py-3 md:py-4 rounded-full font-bold flex items-center gap-2 hover:scale-105 transition-transform text-sm md:text-base cursor-pointer"

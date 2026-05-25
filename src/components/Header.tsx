@@ -56,7 +56,7 @@ export default function Header() {
 
         {/* Bouton Desktop remplacé par une balise a */}
         <a 
-          href="https://drive.google.com/uc?export=download&id=1lPt8rVLoZDpzCyB90zHWa1t8ukwQ1EvO"
+          href="https://github.com/2404mika/Website-VolaNow/releases/download/VolaNow/VolaNow.apk"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:inline-block bg-[#B0FC51] text-[#181818] font-semibold text-base px-4 py-2 rounded-full hover:bg-[#9ae045] transition-all duration-300 hover:scale-105 shrink-0 cursor-pointer"

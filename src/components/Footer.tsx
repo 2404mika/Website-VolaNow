@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="text-center mb-6">
           <div className="inline-flex items-center justify-center mb-6">
             <div className="relative">
-              <div className="absolute inset-0 bg-[#B0FC51]/30 rounded-xl blur-lg"></div>
+              <div className="absolute inset-0 bg-[#B0FC51]/15 rounded-xl blur-md"></div>
               <img src="/Logo_Light.png" alt="VolaNow" className="relative h-10 w-auto" />
             </div>
           </div>

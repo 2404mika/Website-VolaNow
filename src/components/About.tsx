@@ -101,8 +101,8 @@ function TeamCard({ member, index, isInView }: TeamCardProps) {
             <div className="h-[1px] w-0 bg-[#B0FC51] group-hover:w-8 transition-all duration-700 ease-out" style={{ transitionDelay: "300ms" }}></div>
           </div>
 
-          <p className="text-[#181818] text-sm font-medium mb-1 transition-colors duration-500 group-hover:text-[#B0FC51]">{member.phone}</p>
-          <a href={`mailto:${member.email}`} className="text-[#4ade80] text-sm hover:underline transition-all duration-300 hover:text-[#22c55e] hover:translate-x-1">
+          <p className="text-[#181818] text-sm font-medium mb-1">{member.phone}</p>
+          <a href={`mailto:${member.email}`} className="text-[#7ab83e] text-sm hover:underline transition-all duration-300 hover:text-[#5a9a2e] hover:translate-x-1">
             {member.email}
           </a>
         </div>

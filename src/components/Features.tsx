@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
+import Image from "next/image";
 
 function useInView(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null);
@@ -212,8 +213,13 @@ export default function Features() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#181818]">
               {titleParts.map((part, i) =>
                 part === "VolaNow" ? (
-                  <span key={i} className="text-[#B0FC51]">
-                    {part}
+                  <span key={i} className="inline-block align-middle ml-2 relative w-[140px] h-[40px] md:w-[180px] md:h-[50px]">
+                    <Image
+                      src="/Logo_Light.png"
+                      alt="VolaNow"
+                      fill
+                      className="object-contain"
+                    />
                   </span>
                 ) : (
                   <span key={i}>{part}</span>

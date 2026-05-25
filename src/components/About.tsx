@@ -127,7 +127,7 @@ export default function About() {
                 aboutSection.isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-full"
               }`}
             >
-              Notre Équipe
+              Notre <span className="text-[#7ab83e]">Equipe</span>
             </h2>
           </div>
 

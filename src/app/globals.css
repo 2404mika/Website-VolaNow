@@ -13,13 +13,27 @@
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --color-accent-dark: var(--accent-dark);
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.5rem;
+  --text-7xl: 4.5rem;
+}
+
+html {
+  font-size: 112.5%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Zalando Sans Expanded', sans-serif;
-  font-size: 18px;
 }
 
 @keyframes fadeInUp {

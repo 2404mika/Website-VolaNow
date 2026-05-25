@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@fontsource/elms-sans/index.css";
 
 :root {
   --background: #F2F2F2;
@@ -18,6 +19,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Zalando Sans Expanded', sans-serif;
+  font-size: 18px;
 }
 
 @keyframes fadeInUp {

@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section id="home" className="mx-3 pt-24">
       <div className="w-full">
-        <div className="bg-[#1a1a1a] rounded-3xl overflow-hidden min-h-[89vh] md:min-h-[89vh] md:lg-h-[89vh] flex flex-col items-center justify-center md:p-3">
+        <div className="bg-[#1a1a1a] rounded-3xl overflow-hidden min-h-[89vh] md:min-h-[89vh] md:lg-h-[89vh] flex flex-col items-center justify-center md:p-5">
           <div className="absolute inset-0">
             <div className="absolute top-1/3 right-1/4 w-[200px] md:w-[500px] h-[200px] md:h-[500px] bg-white/5 rounded-full blur-[80px] md:blur-[120px]"></div>
             <div className="absolute top-1/2 right-1/3 w-[150px] md:w-[400px] h-[150px] md:h-[400px] bg-white/8 rounded-full blur-[60px] md:blur-[100px]"></div>

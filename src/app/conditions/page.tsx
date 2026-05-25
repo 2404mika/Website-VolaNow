@@ -77,13 +77,13 @@ export default function ConditionsPage() {
           <p className="text-gray-500 mb-10">
             <strong>Dernière mise à jour :</strong> 22 Mai 2026
           </p>
-          <p className="text-[#181818]/80 mb-10 leading-relaxed">
+          <p className="text-[#181818]/80 mb-10 leading-relaxed text-justify">
             Bienvenue sur <strong>Volanow</strong>, une application mobile permettant
             d&apos;effectuer des opérations de retrait d&apos;argent, de transfert Mobile
             Money et de recharge de crédit téléphonique via des codes USSD avec les
             opérateurs téléphoniques de Madagascar.
           </p>
-          <p className="text-[#181818]/80 mb-12 leading-relaxed">
+          <p className="text-[#181818]/80 mb-12 leading-relaxed text-justify">
             En utilisant l&apos;application Volanow, vous acceptez pleinement les
             présentes Conditions d&apos;Utilisation. Si vous n&apos;acceptez pas ces
             conditions, veuillez ne pas utiliser l&apos;application.
@@ -95,7 +95,7 @@ export default function ConditionsPage() {
                 <h2 className="text-xl font-semibold text-[#181818] mb-3">
                   {section.title}
                 </h2>
-                <p className="text-[#181818]/70 leading-relaxed">{section.content}</p>
+                <p className="text-[#181818]/70 leading-relaxed text-justify">{section.content}</p>
               </section>
             ))}
           </div>

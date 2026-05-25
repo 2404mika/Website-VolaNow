@@ -74,13 +74,13 @@ export default function PrivacyPage() {
           <p className="text-gray-500 mb-10">
             <strong>Dernière mise à jour :</strong> 22 Mai 2026
           </p>
-          <p className="text-[#181818]/80 mb-10 leading-relaxed">
+          <p className="text-[#181818]/80 mb-10 leading-relaxed text-justify">
             Bienvenue sur <strong>Volanow</strong>, une application mobile permettant
             d&apos;effectuer des opérations de <strong>retrait d&apos;argent Mobile Money</strong>, de{" "}
             <strong>transfert d&apos;argent</strong> et de <strong>recharge de crédit téléphonique</strong> via
             des <strong>codes USSD</strong>, avec les principaux opérateurs téléphoniques de Madagascar.
           </p>
-          <p className="text-[#181818]/80 mb-12 leading-relaxed">
+          <p className="text-[#181818]/80 mb-12 leading-relaxed text-justify">
             La protection de vos données personnelles est importante pour nous. Cette
             politique de confidentialité explique quelles informations peuvent être
             utilisées par l&apos;application, comment elles sont traitées et vos droits en
@@ -93,13 +93,13 @@ export default function PrivacyPage() {
                 <h2 className="text-xl font-semibold text-[#181818] mb-3">
                   {section.title}
                 </h2>
-                <p className="text-[#181818]/70 leading-relaxed">{section.content}</p>
+                <p className="text-[#181818]/70 leading-relaxed text-justify">{section.content}</p>
                 {section.subsections?.map((sub) => (
                   <div key={sub.subtitle} className="mt-4 ml-4">
                     <h3 className="text-lg font-medium text-[#181818] mb-2">
                       {sub.subtitle}
                     </h3>
-                    <p className="text-[#181818]/70 leading-relaxed">{sub.content}</p>
+                    <p className="text-[#181818]/70 leading-relaxed text-justify">{sub.content}</p>
                   </div>
                 ))}
               </section>

@@ -26,9 +26,9 @@ export default function Footer() {
           </div>
           <span className="w-1.5 h-1.5 bg-[#B0FC51] rounded-full"></span>
           <div className="flex items-center gap-4 text-gray-600">
-            <a href="/conditions" className="hover:text-[#5c8e1e] transition-colors duration-300">Confidentialité</a>
+            <a href="/privacy" className="hover:text-[#5c8e1e] transition-colors duration-300">Confidentialité</a>
             <span className="w-px h-4 bg-gray-300"></span>
-            <a href="/privacy" className="hover:text-[#5c8e1e] transition-colors duration-300">Conditions</a>
+            <a href="/conditions" className="hover:text-[#5c8e1e] transition-colors duration-300">Conditions</a>
           </div>
         </div>
       </div>

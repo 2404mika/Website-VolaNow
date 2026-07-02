@@ -3,8 +3,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité – VolaNow",
-  description: "Politique de confidentialité de Volanow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+  title: "Politique de Confidentialité",
+  description: "Politique de confidentialité de VolaNow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+  alternates: {
+    canonical: "/privacy",
+  },
+  openGraph: {
+    title: "Politique de Confidentialité – VolaNow",
+    description: "Politique de confidentialité de VolaNow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+    url: "/privacy",
+  },
 };
 
 const sections = [

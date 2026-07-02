@@ -3,8 +3,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Conditions d'Utilisation – VolaNow",
-  description: "Conditions d'utilisation de Volanow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+  title: "Conditions d'Utilisation",
+  description: "Conditions d'utilisation de VolaNow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+  alternates: {
+    canonical: "/conditions",
+  },
+  openGraph: {
+    title: "Conditions d'Utilisation – VolaNow",
+    description: "Conditions d'utilisation de VolaNow, application mobile de retrait d'argent Mobile Money, transfert d'argent et recharge de crédit téléphonique à Madagascar.",
+    url: "/conditions",
+  },
 };
 
 const sections = [

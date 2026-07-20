@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://volanow.mg";
+  const baseUrl = "https://volanow.vercel.app";
 
   return [
     {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import FontStyles from "./FontStyles";
 
-const siteUrl = "https://volanow.vercel.app/";
+const siteUrl = "https://volanow.vercel.app";
 
 export const metadata: Metadata = {
   title: {
@@ -73,6 +73,9 @@ export const metadata: Metadata = {
     },
   },
   category: "finance",
+  verification: {
+    google: "2Uy56QvfF-HeOEdC1xCC7oezwC8ACy4tKGwN6ILAMvY",
+  },
 };
 
 export default function RootLayout({
